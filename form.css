@@ -8,41 +8,58 @@
 form
 {
     margin-top: 15rem;
-    margin-left: 10rem;
+    margin-left: 35rem;
 }
 
 #name
 {
-    margin: 3px;
-    margin-left: 100px;
+    margin: 10px;
+    margin-left: 184px;
+    padding: 5px;
 }
 
 #contact
 {
-    margin: 3px;
-    margin-left: 100px;
+    margin: 10px;
+    margin-left: 151px;
+    padding: 5px;
 }
 
 #email
 {
-    margin: 3px;
-    margin-left: 100px;
+    margin: 10px;
+    margin-left: 182px;
+    padding: 5px;
 }
 
 #password
 {
-    margin: 3px;
-    margin-left: 100px;
+    margin: 10px;
+    margin-left: 158px;
+    padding: 5px;
 }
 
 #confirm
 {
-    margin: 3px;
+    margin: 10px;
     margin-left: 100px;
+    padding: 5px;
 }
 
 #male
 {
-    margin: 3px;
-    margin-left: 100px;
+    margin: 10px;
+    margin-left: 170px;
+    padding: 5px;
+    margin-bottom: 5vh;
 }
+
+#submit
+{
+    margin-top: 2rem;
+    margin-left: 12rem;
+    padding: 1vh;
+    border-radius: 12px;
+    border: none;
+}
+
