@@ -1,14 +1,14 @@
-function valiadteform() 
+function validateform() 
 {
     var name= document.getElementById("name").value;
     var contact= document.getElementById("contact").value;
     var email= document.getElementById("email").value;
     var password= document.getElementById("password").value;
     var confirm = document.getElementById("confirm").value;
-    var validname= /^[A-Za-z]{3,30}$/;
-    var validemail= /^[A-Za-z_]{3,}@[A-Za-z]{3,}[.]{1}[A-Za-z.]{2,6}$/;
+    var validname= /^[A-Za-z]{3,10}[ ]{1}[A-Za-z]{3,15}$/;
+    var validemail= /^[A-Za-z0-9_]{3,}@[A-Za-z]{3,}[.]{1}[A-Za-z.]{2,6}$/;
     var validcontact=/^[6789][0-9]{9}$/;
-    var validpass= /^(?=.*[0-9])(?=.[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{8,20}$/;
+    var validpass= /^[a-zA-Z0-9!@#$%^&*]{8,20}$/;
     
     if(validname.test(name))
     {
