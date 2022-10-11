@@ -6,15 +6,20 @@
     <body>
         <form onsubmit="validateform()">
             Name: <input type="text" name="name" id="name" placeholder="Enter your name"><br>
+            <span id="namedanger"></span>
             Phone No.: <input type="tel" name="contact" id="contact" placeholder="Enter your phone number"><br>
+            <span id="phonedanger"></span>
             E-mail: <input type="email" name="email" id="email" placeholder="Enter your e-mail address"><br>
+            <span id="maildanger"></span>
             Password: <input type="password" name="password" id="password" placeholder="Enter password"><br>
+            <span id="passdanger"></span>
             Confirm password: <input type="password" name="confirm" id="confirm" placeholder="Confirm password"><br>
+            <span id="confirmdanger"></span>
             Gender: <input type="radio" name="Gender" id="male" value="Male"><label for="male">Male</label>&nbsp;
             <input type="radio" name="Gender" id="female" value="Female"><label for="female">Female</label>&nbsp;
             <input type="radio" name="Gender" id="other" value="Other"><label for="other">Other</label><br>
             <input type="submit" name="submit" id="submit">
         </form>
-        <script></script>
+        <script src="index.js"></script>
     </body>
 </html>
