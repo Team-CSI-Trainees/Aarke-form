@@ -7,7 +7,7 @@
 
 #whole
 {
-    background-image: url("form_bg.jpg");
+    background: url("form_bg.jpg") no-repeat center center/cover ;
 }
 
 #top
@@ -20,8 +20,8 @@
 form
 {
     margin-top: 6rem;
-    margin-left: 25rem;
-    width: 450px;
+    margin-left: 35rem;
+    width: 480px;
     height: 62vh;
     padding-top: 25px;
     padding-left: 40px;
@@ -35,7 +35,7 @@ form
 #name
 {
     margin: 10px;
-    margin-left: 174px;
+    margin-left: 178px;
     padding: 5px;
     border: none;
 }
@@ -43,7 +43,7 @@ form
 #contact
 {
     margin: 10px;
-    margin-left: 141px;
+    margin-left: 136px;
     padding: 5px;
     border: none;
 }
@@ -51,7 +51,7 @@ form
 #email
 {
     margin: 10px;
-    margin-left: 172px;
+    margin-left: 174px;
     padding: 5px;
     border: none;
 }
@@ -59,7 +59,7 @@ form
 #password
 {
     margin: 10px;
-    margin-left: 148px;
+    margin-left: 150px;
     padding: 5px;
     border: none;
 }
@@ -76,7 +76,6 @@ form
 {
     margin: 10px;
     margin-left: 160px;
-    margin-bottom: 5vh;
 }
 
 #submit
@@ -88,35 +87,7 @@ form
     border: none;
 }
 
-#namedanger
-{
-    color: red;
-    font-size: small;
-    margin-left: 32vh;
-}
-
-#phonedanger
-{
-    color: red;
-    font-size: small;
-    margin-left: 32vh;
-}
-
-#maildanger
-{
-    color: red;
-    font-size: small;
-    margin-left: 32vh;
-}
-
-#passdanger
-{
-    color: red;
-    font-size: small;
-    margin-left: 32vh;
-}
-
-#confirmdanger
+.danger
 {
     color: red;
     font-size: small;
@@ -132,18 +103,106 @@ form
     form
     {
         margin-top: 3rem;
-        margin-left: 15rem;
-        width: 40vh;
-        height: 50vh;
+        margin-left: 23rem;
+        width: 45vh;
+        height: 53vh;
         padding-top: 25px;
-        padding-left: 40px;
+        padding-left: 15px;
+    }
+
+    .label
+    {
+        display: flex;
+        font-size: 0.75rem;
+        margin-top: 5px;
+    }
+
+    .label2
+    {
+        font-size: 0.75rem;
+    }
+
+    .input
+    {
+        margin-top: 0%;
+    }
+
+    .danger
+    {
+        color: red;
+        font-size: 0.65rem;
+        margin-left: 20vh;
+        padding-top: 20px;
     }
 
     #name
     {
-        margin: 10px;
-        margin-left: 174px;
-        padding: 5px;
+        margin: 1px;
+        margin-left: 120px;
+        padding: 0.5px;
         border: none;
+        height: 0.75rem;
+        width: 22vh;
+        font-size: 0.65rem;
+    }
+
+    #contact
+    {
+        margin: 0px;
+        margin-left: 120px;
+        padding: 0.5px;
+        border: none;
+        height: 0.75rem;
+        width: 22vh;
+        font-size: 0.65rem;
+    }
+
+    #email
+    {
+        margin: 0.5px;
+        margin-left: 100px;
+        margin-left: 120px;
+        padding: 0.5px;
+        border: none;
+        height: 0.75rem;
+        width: 22vh;
+        font-size: 0.65rem;
+    }
+
+    #password
+    {
+        margin: 0.5px;
+        margin-left: 120px;
+        padding: 0.5px;
+        border: none;
+        height: 0.75rem;
+        width: 22vh;
+        font-size: 0.65rem;
+    }
+
+    #confirm
+    {
+        margin: 0.5px;
+        margin-left: 120px;
+        padding: 0.5px;
+        border: none;
+        height: 0.75rem;
+        width: 22vh;
+        font-size: 0.65rem;
+    }
+
+    #male
+    {
+        margin: 10px;
+        margin-left: 10px;
+        margin-bottom: 5vh;
+    }
+
+    #submit
+    {
+        height: 2vh;
+        width: 6vh;
+        font-size: 0.65rem;
+        margin-top: 1vh;
     }
 }
