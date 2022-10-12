@@ -3,11 +3,13 @@
     padding: 0;
     font-family:'Poppins',sans-serif;
     box-sizing:content-box;
+  
 }
 
 #whole
 {
     background: url("form_bg.jpg") no-repeat center center/cover ;
+   
 }
 
 #top
@@ -19,7 +21,7 @@
 
 form
 {
-    margin-top: 6rem;
+     margin-top: 6rem;
     margin-left: 35rem;
     width: 480px;
     height: 62vh;
@@ -29,7 +31,9 @@ form
     background-color: gainsboro ;
     border-radius: 20px;
     list-style: none;
-    color: darkblue;
+    color: darkblue; 
+   
+    
 }
 
 #name
