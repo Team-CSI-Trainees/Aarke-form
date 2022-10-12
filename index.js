@@ -1,5 +1,5 @@
 function validateform() 
-{
+{   var value=true; 
     var name= document.getElementById("name").value;
     var contact= document.getElementById("contact").value;
     var email= document.getElementById("email").value;
@@ -19,7 +19,7 @@ function validateform()
     else
     {
         document.getElementById('namedanger').innerHTML="** Username is invalid!";
-        return false;
+        value= false;
     }
 
     if(validcontact.test(contact))
@@ -29,7 +29,7 @@ function validateform()
     else
     {
         document.getElementById('phonedanger').innerHTML="** Contact number is invalid!";
-        return false;
+        value= false;
     }
 
     if(validemail.test(email))
@@ -39,7 +39,7 @@ function validateform()
     else
     {
         document.getElementById('maildanger').innerHTML="** Email is invalid!";
-        return false;
+        value= false;
     }
 
     if(validpass.test(password))
@@ -49,13 +49,13 @@ function validateform()
     else
     {
         document.getElementById('passdanger').innerHTML="** Password is invalid!";
-        return false;
+        value= false;
     }
 
     if(confirm=="")
     {
         document.getElementById('confirmdanger').innerHTML="** Passwords do not match!";
-        return false;
+        value= false;
     }
 
     if(password.match(confirm))
@@ -65,7 +65,7 @@ function validateform()
     else
     {
         document.getElementById('confirmdanger').innerHTML="** Passwords do not match!";
-        return false;
+        value= false;
     }
 
     for(var i=0;i<gender.length;i++)
@@ -84,8 +84,12 @@ function validateform()
     {
         {
             document.getElementById('genderdanger').innerHTML="** Select your gender!";
-            return false;
+            value= false;
         }
     }
-   
+    
+    if(value)
+    {
+        alert("Your information has been submitted successfully.");
+    }
 }
