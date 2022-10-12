@@ -92,4 +92,5 @@ function validateform()
     {
         alert("Your information has been submitted successfully.");
     }
+    return value;
 }
