@@ -91,6 +91,7 @@ function validateform()
     if(value)
     {
         alert("Your information has been submitted successfully.");
+        document.writeln("Your given information is: <br> Name: "+name+"<br>Contact No.: "+contact+"<br>Email: "+email);
     }
     return value;
 }
